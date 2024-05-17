@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #B3D9FF; /* Cor de fundo da página */
+    color: white;
+}
+
+header {
+    background-color: #2158D7; /* Cor do cabeçalho */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: auto; /* Empurra a logo para o lado esquerdo */
+}
+
+.logo {
+    max-width: 100px; /* Tamanho da logo */
+    height: auto;
+}
+
+nav {
+    margin-left: auto; /* Empurra a navegação para o lado direito */
+}
+
+main {
+    padding: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-thumbnail {
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+.video-thumbnail a {
+    text-decoration: none;
+}
+
+.video-thumbnail img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+}
